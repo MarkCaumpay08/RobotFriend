@@ -4,6 +4,7 @@ h1 {
 }
 
 .robots {
+    
 }
 
 .head, 
@@ -15,6 +16,10 @@ h1 {
 	 background-color: #5f93e8;
 }
 
+/*---------------------------*/
+/*----- HEAD PART -----------*/
+/*---------------------------*/
+
 .head { 
 	width: 200px; 
 	margin: 0 auto; 
@@ -23,20 +28,45 @@ h1 {
 	margin-bottom: 10px;
 } 
 
-.eyes {
-	
-}
-
 .head:hover {
 	width: 300px;
     transition: 1s ease-in-out;
 }
 
+.eyes {
+	
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+/*---------------------------*/
+/*----- UPPER BODY PART -----*/
+/*---------------------------*/
+
 .upper_body { 
 	width: 300px; 
 	height: 150px;
 	display: flex; 
-} 
+}
 
 .left_arm, .right_arm { 
 	width: 40px; 
@@ -50,13 +80,18 @@ h1 {
 
 .right_arm { 
 	margin-left: 10px; 
-} 
+}
 
 .torso { 
 	width: 200px; 
 	height: 200px;
 	border-radius: 0 0 50px 50px; 
 } 
+
+/*---------------------------*/
+/*----- LOWER BODY PART -----*/
+/*---------------------------*/
+
 
 .lower_body { 
 	width: 200px; 
@@ -88,26 +123,7 @@ h1 {
 	margin-left: 30px; 
 }
 
-.left_eye, .right_eye { 
-	width: 20px; 
-	height: 20px; 
-	border-radius: 15px; 
-	background-color: white;  
-} 
 
-.left_eye { 
-	/* These properties are new and you haven't encountered
-	in this course. Check out CSS Tricks to see what it does! */
-	position: relative; 
-	top: 100px; 
-	left: 40px; 
-} 
-
-.right_eye { 
-	position: relative; 
-	top: 100px; 
-	left: 120px; 
-}
 
 
 

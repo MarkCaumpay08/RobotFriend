@@ -1,2 +1,7 @@
 # RobotFriend
-The "the-complete-web-developer-in-2018" robot challenge
+
+
+### This is from the udemy course
+### Course Title :The Complete Web Developer in 2018 : Zero to Mastery
+### Course Instructor : Andrei Neagoie
+### A challenge to practice html, css coding
